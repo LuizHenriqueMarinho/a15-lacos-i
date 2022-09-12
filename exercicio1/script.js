@@ -10,8 +10,8 @@
 // devemos imprimir o valor total da conta.
 
 let querCoxinha = "S"
-let total = 0 
-let qtd = 0
+let total = -2.5 //para começar em zero
+let qtd = -1 //para começar em 0
 while(querCoxinha === "S")
 {
     querCoxinha = prompt("quer mais uma coxinha por R$2,50? ").toLocaleUpperCase()
